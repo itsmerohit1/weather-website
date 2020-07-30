@@ -1,0 +1,58 @@
+body{
+     background-image:url("/img/n1.jpg");
+     opacity: 0.8;
+     background-repeat: no-repeat;
+     background-size: 1200px 1000px;
+     columns: hsl(0, 0%, 96%);
+    font-family:arial;
+     
+    max-width:650px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+     color:rgb(144, 47, 47);
+     background-color:green;
+     border-top:1px solid rgb(90, 79, 83);
+     margin-top: 16px;
+     padding: 16px auto;
+}
+
+header{
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color: royalblue;
+}
+
+h1{
+    font-size:70px;
+    margin-bottom: 16px;
+    background-color: royalblue;
+    color:white;
+}
+
+header a{
+    color: green;
+    background-color: chocolate;
+    margin-right:16px;
+    text-decoration:none;
+} 
+.potrait img{
+    width:300px;
+}
+
+.main-content {
+    flex-grow: 1;
+
+}
+
+p{
+    color:white;
+    background-color:orangered;
+} 
+
+p

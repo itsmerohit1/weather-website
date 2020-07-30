@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <title>
+           Weather 
+        </title>
+        <link rel="icon" href="/img/weather.png">
+        <link rel="stylesheet" href="/css/styles.css">
+        
+    </head>
+    <body style="">
+        
+        <div class="main-content">
+ `      {{>header}}
+
+        <h3 style="background: blueviolet;opacity:0.9":> hey! type your location and get the weather!</h3>
+       <form>
+         
+        <input placeholder="example-venice">   
+        <button style="color: crimson;">Search!</button>
+      </form>
+      
+    
+
+    <p style="background-color: rgb(84, 145, 24);color:white; opacity:0.9; " id="m1"></p>
+    
+    <p style="background-color: rgb(84, 145, 24);color:white;" id="m2"></p>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+       {{>footer}}
+      <script src="/js/app.js"></script>
+    </body>
+</html>
