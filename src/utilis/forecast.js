@@ -17,9 +17,12 @@ request ({url,json:true},(error,{body}) =>{
  else{
     const f1=parseInt(body.main.temp)-273
     const f2=parseInt(body.main.feels_like)-273
-
-    const g="here we go! the current temperaute of the location is "+f1+" degree celcius and it feels_like nearly "+f2+" degree celcius "
-   callback(undefined ,{forcast:g})
+    const wind =body.wind.speed
+    const wind_temp=parseInt(body.wind[1])-273
+   
+    const g="here we go! the current temperaute of the location is "+f1+" degree celcius and it feels_like nearly       "+f2+" . "+"    Humidity is around "+body.main.humidity+"  and it seems wind is smashing you @ "+wind+"miles per hour"
+   
+    callback(undefined ,{forcast:g})
      
  }   
    
